@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image: url(../img/Space_texture.jpg);
+    background-repeat: round;
+    background-size: auto;
+
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* border: dotted 1px; */
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+   
+    padding: 1%;
+    margin: 1% 5% 0.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1,
+header h2 {
+
+    margin: 0px;
+}
+
+header .quote {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    width: 85%;
+    align-self: center;
+
+}
+
+header .by {
+    font-size: small;
+    font-style: italic;
+    border: 0px;
+    padding: 0px;
+    width: 40%;
+    text-align: right;
+}
+
+.template {
+
+    display: flex;
+    
+    padding: 0px 5%;
+    align-items: stretch;
+    justify-content: space-around;
+    color: whitesmoke;
+    margin: 0px 0px 0px 0px;
+
+
+
+}
+
+.template_details {
+
+    display: flex;
+    padding: 0px 5%;
+    align-items: stretch;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    margin: 0px 0px 0px 0px;
+
+
+
+}
+
+.navbar {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    padding: 75px 12px 0px 10px;
+    border-right: solid 2px whitesmoke;
+    align-items: center;
+    width: 20vmin;
+    justify-content: flex-start;
+   
+    
+    background-image: url("../img/sidebackground.jpg");
+    background-size:auto
+}
+
+.navbar ul {
+    padding-left:  0px;
+}
+
+
+
+
+.link, h2 a {
+    color: whitesmoke;
+    text-decoration: none;
+
+
+}
+
+
+
+.link:visited ,h2 a:visited {
+    color: rgb(250, 236, 236);
+    text-decoration: underline;
+}
+
+.link:hover, h2 a:hover {
+    color: orchid;
+    font-size: 102%;
+}
+
+.template article,
+.template_details article {
+    
+    padding: 2% 10% 2% 4%;
+    font-size: large;
+    width: 95%;
+    background-image: url("../img/mainback.jpg");
+    background-size: contain;
+
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+
+.cerrar{
+    border-bottom:  1px whitesmoke solid;}
+
+.template  li, .template_details  li {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 12px;
+
+    align-items: center;
+
+    flex-shrink: 1;
+
+    border-top: 1px whitesmoke solid;
+
+}
+
+.template_details .ficha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 12px;
+
+    align-items: center;
+
+    flex-shrink: 1;
+
+    border-top: 1px whitesmoke solid;
+
+}
+
+.template_details .ficha_line {
+    display: flex;
+
+    justify-content: space-between;
+    font-size: 85%;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    width: 40%;
+    flex-shrink: 0;
+
+    border-top: 1px whitesmoke solid;
+
+}
+
+.template img {
+    width: 20vmin;
+    min-height: 270px;
+    min-width: 160px;
+    margin: 2.5% 2.5% 2.5% 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.template img:hover {
+    scale: 1.15;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+footer {
+
+    background-color: rgb(60, 60, 131, 0.7);
+    margin: 0% 5% 1.5%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: smaller;
+    background-image: url("../img/mainback.jpg");
+
+    border-top: 2px whitesmoke solid;
+    padding-top: 12px;
+
+
+}
+
+footer p {
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+.rank {
+    padding-left: 4%;
+
+}
+
+
+.details {
+    color: orchid;
+    font-size: 98%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.marco {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3%;
+    ;
+}
+
+.reseña {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 85vmax;
+    
+    font-size: 100%;
+}
+
+.reseña p {
+    margin: 0px;
+    padding: 2px 12px 0px 0px;
+    width: 95%;
+    
+}
+.sabermas {
+    text-align: right;
+    font-style: italic;
+    color: palegoldenrod;
+    padding: 50px 0px 0px 0px;
+    margin-top: px;
+    align-self: flex-end;
+    justify-self:flex-end;
+    font-size: 85%;
+}
+
+
+
+.news li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
